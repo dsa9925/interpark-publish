@@ -6,7 +6,8 @@
     "option": "국적기직항",
     "place": "[미서부/단독/BEST] 3대도시+8대캐년 완전일주 7박10일 [아시아나]",
     "price": "3399000",
-    "url": "a.html"
+    "url": "a.html",
+    "tag": "베스트셀러"
   },
   "tour_2": {
     "image": "images/t2.webp",
@@ -14,7 +15,8 @@
     "option": "오사카",
     "place": "소테츠 그랜드 프레사 오사카 남바",
     "price": "90115",
-    "url": "a.html"
+    "url": "a.html",
+    "tag": "오사카"
   },
   "tour_3": {
     "image": "images/t4.webp",
@@ -22,7 +24,8 @@
     "option": "강력특가",
     "place": "해운대",
     "price": "70000",
-    "url": "a.html"
+    "url": "a.html",
+    "tag": "부산"
   },
   "tour_4": {
     "image": "images/t1.jpg",
@@ -30,7 +33,8 @@
     "option": "BEST",
     "place": "[런던Pack] 찐 런던 & 토트넘 직관 경기_6박8일",
     "price": "5490000",
-    "url": "a.html"
+    "url": "a.html",
+    "tag": "BEST"
   },
   "tour_5": {
     "image": "images/t5.jpg",
@@ -38,7 +42,8 @@
     "option": "베스트셀러",
     "place": "[부산-하노이 5일]★가족여행최고★하노이/하롱베이+옌뜨 5",
     "price": "679000",
-    "url": "a.html"
+    "url": "a.html",
+    "tag": "강력특가"
   },
   "tour_6": {
     "image": "images/t6.jpg",
@@ -46,7 +51,8 @@
     "option": "국적기직항",
     "place": "북경/만리장성/서커스/이화원/전일정쉐라톤 4일",
     "price": "299000",
-    "url": "a.html"
+    "url": "a.html",
+    "tag": "북경"
   },
   "tour_7": {
     "image": "images/t7.webp",
@@ -54,7 +60,8 @@
     "option": "타이베이",
     "place": "저스트 슬립 시먼딩",
     "price": "180855",
-    "url": "a.html"
+    "url": "a.html",
+    "tag": "타이페이"
   },
   "tour_8": {
     "image": "images/t8.jpg",
@@ -62,7 +69,8 @@
     "option": "소아동반인기",
     "place": "[더욱 오래 단둘이]푸꾸옥 5일_특급서비스 얼리체크인OR레",
     "price": "740000원",
-    "url": "a.html"
+    "url": "a.html",
+    "tag": "베스트셀러"
   },
   "tour_9": {
     "image": "images/t9.jpg",
@@ -70,6 +78,7 @@
     "option": "강력특가",
     "place": "어반스테이 여수웅천",
     "price": "63900",
-    "url": "a.html"
+    "url": "a.html",
+    "tag": "베트남"
   }
 }

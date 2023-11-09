@@ -143,6 +143,24 @@
   font-style: normal;
 }
 
+.tour-tag {
+  position: absolute;
+  height: 3.2rem;
+  padding: 0 1.2rem;
+  left: 2rem;
+  top: 17.5em;
+  background-color: #1769ff;
+  border-radius: 0.4rem;
+}
+
+.tour-tag i {
+  line-height: 3.2rem;
+  font-size: 1.4rem;
+  font-style: normal;
+  color: #fff;
+  font-weight: 700;
+}
+
 .tour-footer {
   position: relative;
 }

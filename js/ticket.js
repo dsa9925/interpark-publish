@@ -60,9 +60,14 @@ window.addEventListener("load", function () {
                                 ${obj.date}
                                 </span>
                               </li>
-                            </ul>
+                              <li>
+                                <span class="ticket-sell">${obj.sell}</span>
+                              </li>
+                            </ul>        
                           </div>
-                        </a>
+                          <span class="ticket-number">${obj.number}</span>
+                          
+                          </a>
                       </div>
                     </div>
                     `;

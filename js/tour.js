@@ -63,6 +63,9 @@ window.addEventListener("load", function () {
                               </li>
                             </ul>
                           </div>
+                          <span class="tour-tag">
+                          <i>${obj.tag}</i>
+                          </span>
                         </a>
                       </div>
                     </div>
