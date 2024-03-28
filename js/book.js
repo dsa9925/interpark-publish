@@ -17,6 +17,7 @@ window.addEventListener("load", function () {
       const json = JSON.parse(res);
       makeHtmlTag(json);
     }
+    console.log("book json", fileName);
   };
 
   // 2. html 태그를 백틱을 이용해서 만든다.

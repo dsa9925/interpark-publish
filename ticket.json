@@ -15,7 +15,8 @@
     "place": "국립정동극장(서울)",
     "date": "2023.12.07 - 2023.12.30",
     "url": "a.html",
-    "number": "2"
+    "number": "2",
+    "sell": "좌석우위"
   },
   "ticket_3": {
     "image": "images/ticket3.gif",
@@ -50,7 +51,8 @@
     "place": "블루스퀘어 신한카드홀",
     "date": "2023.08.19 - 2023.11.19",
     "url": "a.html",
-    "number": "6"
+    "number": "6",
+    "sell": "좌석우위"
   },
   "ticket_7": {
     "image": "images/ticket7.gif",
@@ -62,9 +64,9 @@
     "sell": "좌석우위"
   },
   "ticket_8": {
-    "image": "images/ticket2.gif",
-    "name": "뮤지컬 <딜쿠샤>",
-    "place": "국립정동극장(서울)",
+    "image": "images/ticket8.gif",
+    "name": "뮤지컬 〈마리 앙투아네트〉 공연",
+    "place": "디큐브 링크아트센터",
     "date": "2023.12.07 - 2023.12.30",
     "url": "a.html",
     "number": "8",

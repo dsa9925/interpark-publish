@@ -1,39 +1,79 @@
 window.addEventListener("load", function () {
   console.log("라이브 슬라이드 기능");
-  // 추천 상품 슬라이드 기능
-  // 글로써 코딩 시나리오 작성 : 의사코드
 
-  // 1. 외부 데이터를 불러온다.
+  // json 파일 경로
   const fileName = "live.json";
 
-  // * 외부 데이터 가져올 때 작성법
+  // 외부 데이터 불러오기
   const xhr = new XMLHttpRequest();
   xhr.open("GET", fileName);
   xhr.send();
   xhr.onreadystatechange = function (event) {
-    console.log("데이터 전송 상태 확인", event.target.readyState);
     if (event.target.readyState === XMLHttpRequest.DONE) {
-      console.log("자료를 가져오는데 성공", event.target.response);
+      const res = event.target.response;
+      const json = JSON.parse(res);
+      makeHtmlTag(json);
     }
   };
 
-  // 2. html 태그를 백틱을 이용해서 만든다.
-  const htmlLiveTag = ``;
+  // HTML 태그 생성
+  function makeHtmlTag(_res) {
+    let htmlLiveTag = ``;
+    for (let i = 0; i < _res.total; i++) {
+      const index = i + 1;
+      const obj = _res["live_" + index];
+      const tempTag = `
+      
+      <div class="swiper-slide">
+        <div class="live-slide-item">
+          <a href="${obj.url}" class="live-link">
+            <div class="live-img">
+              <img src="${obj.image}" alt="${obj.desc}" />
+            </div>
+            <div class="live-info">
+              <div class="live-good-list">
+                <div>
+                  <p class="live-good-info-tv">${obj.state}</p>
+                </div>
+                <div>
+                  <p class="live-good-info-tilte">${obj.brand}</p>
+                </div>
+                <div class="live-good-list-cate">
+                  <p class="live-good-info-date">${obj.date}</p>
+                  <p class="live-good-info-time">${obj.time}</p>
+                </div>
+                <div class="live-good-footer">
+                <img class="live-good-footer-images" src="${obj.good_image}" alt="">
+                  <p class="live-good-info-footer">${obj.good_title}</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      `;
+      htmlLiveTag += tempTag;
+    }
+    showHtmlTag(htmlLiveTag);
+  }
 
-  // 3. swiper 태그에 백틱을 배치한다.
-  const liveSlide = ".live-slide .live-wrapper";
+  // HTML 태그 표시
+  function showHtmlTag(_html) {
+    const liveSlide = document.querySelector(".live-slide .swiper-wrapper");
+    liveSlide.innerHTML = _html;
+    makeSwiper();
+  }
 
-  // 4. swiper 작동시킨다.
-  // const recommendSwiper = new Swiper(".recommed-slide");
-  const swiperLive = new Swiper(".live-slide", {
-    slidesPerView: 4,
-    spaceBetween: 28,
-    // 좌측, 우측 이동 버튼
-    navigation: {
-      nextEl: ".live-main .slide-next-bt",
-      prevEl: ".live-main .slide-prev-bt",
-    },
-    // 4장씩 이동하라.
-    slidesPerGroup: 4,
-  });
+  // swiper 초기화 함수
+  function makeSwiper() {
+    const swiperLive = new Swiper(".live-slide", {
+      slidesPerView: 4,
+      spaceBetween: 28,
+      navigation: {
+        nextEl: ".live-main .slide-next-bt",
+        prevEl: ".live-main .slide-prev-bt",
+      },
+      slidesPerGroup: 4,
+    });
+  }
 });

@@ -1,117 +1,107 @@
 {
-  "total": 12,
+  "total": 8,
   "live_1": {
-    "live-info": {
-      "image": "images/live_1.jpg",
-      "state": "방송예정",
-      "title": "소담상회 X 에이브랩",
-      "url": "c.html"
-    },
-
-    "live-day": {
-      "date": "10월 31일 (화)",
-      "time": "16:00"
-    },
-
-    "live-good": {
-      "good_image": "images/live_2.jpg",
-      "good_title": "[10.31] ~",
-      "good_discount": 12,
-      "good_price": 35000,
-      "good_url": "good.html"
-    }
-  },
-  "live_2": {
-    "image": "images/live_1.jpg",
+    "image": "images/l1.png",
     "state": "방송예정",
-    "brand": "소담상회 X 에이브랩",
-    "date": "10월 31일 (화)",
-    "time": "16:00",
-    "url": "c.html",
+    "brand": "[제주항공X인싸찾] 해외 항공권 라이브 특가",
+    "date": "04월 02일 (화)",
+    "time": "11:00",
+    "url": "a.html",
     "good_image": "",
     "good_title": "",
-    "good_discount": 12,
-    "good_price": 35000,
+    "good_discount": "",
+    "good_price": "",
+    "good_url": ""
+  },
+  "live_2": {
+    "image": "images/l2.jpg",
+    "state": "VOD",
+    "brand": "[세부] 필리핀 여행의 성지🤿 세미패키지 특가",
+    "date": "10월 31일 (화)",
+    "time": "16:00",
+    "url": "a.html",
+    "good_image": "",
+    "good_title": "",
+    "good_discount": "",
+    "good_price": "",
     "good_url": ""
   },
   "live_3": {
-    "image": "images/live",
-    "state": "방송예정",
-    "brand": "소담상회 X 에이브랩",
-    "date": "10월 31일 (화)",
-    "time": "16:00",
-    "url": "c.html"
+    "image": "images/l3.png",
+    "state": "VOD",
+    "brand": "패키지 어게인✈ BEST 해외여행 패키지 라이브 특가!",
+    "date": "",
+    "time": "",
+    "url": "a.html",
+    "good_image": "images/lb3.jpg",
+    "good_title": "[기획전] 우리가 기다리던 여행💖",
+    "good_discount": "",
+    "good_price": "",
+    "good_url": ""
   },
   "live_4": {
-    "image": "images/live",
-    "state": "방송예정",
-    "brand": "소담상회 X 에이브랩",
-    "date": "10월 31일 (화)",
-    "time": "16:00",
-    "url": "c.html"
+    "image": "images/l4.png",
+    "state": "VOD",
+    "brand": "[인싸찾X티웨이항공] 일본/동남아/대양주 40개 노선 특가! 🛫 지방 출발 가능!",
+    "date": "",
+    "time": "",
+    "url": "a.html",
+    "good_image": "images/lb4.png",
+    "good_title": "[기획전] 인싸찾X티웨이항공 예약하기",
+    "good_discount": "",
+    "good_price": "",
+    "good_url": ""
   },
   "live_5": {
-    "image": "images/live",
-    "state": "방송예정",
-    "brand": "소담상회 X 에이브랩",
-    "date": "10월 31일 (화)",
-    "time": "16:00",
-    "url": "c.html"
+    "image": "images/l5.png",
+    "state": "VOD",
+    "brand": "패키지 어게인✈ BEST 해외여행 패키지 라이브 특가!",
+    "date": "",
+    "time": "",
+    "url": "a.html",
+    "good_image": "images/lb5.jpg",
+    "good_title": "[기획전] 우리가 기다리던 여행💖",
+    "good_discount": "",
+    "good_price": "",
+    "good_url": ""
   },
   "live_6": {
-    "image": "images/live",
-    "state": "방송예정",
-    "brand": "소담상회 X 에이브랩",
-    "date": "10월 31일 (화)",
-    "time": "16:00",
-    "url": "c.html"
+    "image": "images/l6.jpg",
+    "state": "VOD",
+    "brand": "[인터파크X태국관광청] 태국 최대 휴양지 푸켓 방송 📺",
+    "date": "",
+    "time": "",
+    "url": "a.html",
+    "good_image": "images/lb6.png",
+    "good_title": "[기획전] 푸-욱 쉬자, 푸켓",
+    "good_discount": "",
+    "good_price": "",
+    "good_url": ""
   },
   "live_7": {
-    "image": "images/live",
-    "state": "방송예정",
-    "brand": "소담상회 X 에이브랩",
-    "date": "10월 31일 (화)",
-    "time": "16:00",
-    "url": "c.html"
+    "image": "images/l7.jpg",
+    "state": "VOD",
+    "brand": "[방콕/파타야] 100% 출발확정🙌🏻 3박5일 패키지 특가",
+    "date": "",
+    "time": "",
+    "url": "a.html",
+    "good_image": "images/lb7.jpg",
+    "good_title": "[인터파크X카쇼라] 방콕/파타야 패키지",
+    "good_discount": "",
+    "good_price": "",
+    "good_url": ""
   },
   "live_8": {
-    "image": "images/live",
-    "state": "방송예정",
-    "brand": "소담상회 X 에이브랩",
-    "date": "10월 31일 (화)",
-    "time": "16:00",
-    "url": "c.html"
-  },
-  "live_9": {
-    "image": "images/live",
-    "state": "방송예정",
-    "brand": "소담상회 X 에이브랩",
-    "date": "10월 31일 (화)",
-    "time": "16:00",
-    "url": "c.html"
-  },
-  "live_10": {
-    "image": "images/live",
-    "state": "방송예정",
-    "brand": "소담상회 X 에이브랩",
-    "date": "10월 31일 (화)",
-    "time": "16:00",
-    "url": "c.html"
-  },
-  "live_11": {
-    "image": "images/live",
-    "state": "방송예정",
-    "brand": "소담상회 X 에이브랩",
-    "date": "10월 31일 (화)",
-    "time": "16:00",
-    "url": "c.html"
-  },
-  "live_12": {
-    "image": "images/live",
-    "state": "방송예정",
-    "brand": "소담상회 X 에이브랩",
-    "date": "10월 31일 (화)",
-    "time": "16:00",
-    "url": "c.html"
+    "image": "images/l8.jpg",
+    "state": "VOD",
+    "brand": "[방콕/파타야] 100% 출발확정🙌🏻 3박5일 패키지 특가",
+    "date": "",
+    "time": "",
+    "url": "a.html",
+    "good_image": "images/lb8.jpg",
+    "good_title": "[인터파크X카쇼라] 방콕/파타야 패키지",
+    "good_discount": "",
+    "good_price": "",
+    "good_url": ""
   }
 }

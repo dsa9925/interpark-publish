@@ -51,9 +51,9 @@
 .bottom {
   position: relative;
   display: flex;
-  justify-content: center;
   gap: 4px;
   align-items: center;
+  justify-content: center;
 }
 .bottom-bt {
   position: relative;
@@ -62,21 +62,21 @@
   border: 1px solid #e5e5e5;
   background-color: #fff;
   font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 400;
+  font-weight: 700;
   line-height: 42px;
+  line-height: 5.6rem;
   color: #111;
+  text-align: center;
   cursor: pointer;
   border-radius: 44px;
-  text-align: center;
-  font-weight: 700;
-  line-height: 5.6rem;
-  font-size: 1.6rem;
 }
 
 .bottom .entity {
-  display: inline-block;
   width: 0.7rem;
   height: 1.1rem;
+  display: inline-block;
   margin-left: 0.7rem;
   background: url(../images/icon_linkArrow.fc64c13a.svg) no-repeat 50%;
 }

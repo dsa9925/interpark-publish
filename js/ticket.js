@@ -25,16 +25,7 @@ window.addEventListener("load", function () {
     for (let i = 0; i < _res.total; i++) {
       const index = i + 1;
       const obj = _res["ticket_" + index];
-
-      let tempTag = ``;
-      if (i === _res.total - 1) {
-        tempTag = `
-          <div class="swiper-slide">
-            바로가기
-          </div>
-        `;
-      } else {
-        tempTag = `
+      const tempTag = `
     <div class="swiper-slide">
                       <div class="ticket-slide-item">
                         <a href="${obj.url}" class="ticket-link">
@@ -71,9 +62,9 @@ window.addEventListener("load", function () {
                       </div>
                     </div>
                     `;
-      }
       htmlTicketTag += tempTag;
     }
+
     showHtmlTag(htmlTicketTag);
   }
   // 3. swiper 태그에 백틱을 배치한다.

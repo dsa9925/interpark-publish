@@ -1,0 +1,222 @@
+/* 하단 */
+.footer {
+}
+.footer-menu {
+  position: relative;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 0;
+  z-index: 99;
+  margin-top: 90px;
+}
+.footer-menu .inner {
+}
+.footer-menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-menu-list > li {
+  position: relative;
+}
+.footer-menu-list > li::after {
+  position: absolute;
+  top: 2px;
+  right: -36px;
+  content: "";
+  width: 1px;
+  height: 12px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.footer-menu-list > li:last-child::after {
+  content: none;
+}
+
+.footer-menu-list > li > a {
+  font-size: 13px;
+  line-height: 16px;
+  color: #333;
+  white-space: nowrap;
+}
+.footer-menu-list > li > a > strong {
+  font-weight: 700;
+}
+.footer-menu-list > li > a > i::before {
+  display: inline-block;
+  position: relative;
+  content: "";
+  width: 8px;
+  height: 6px;
+  background: url("../images/icon_arrow.svg") no-repeat center;
+  margin-left: 4px;
+  vertical-align: 2px;
+}
+
+.footer-menu-list > li:hover .more-list {
+  display: block;
+}
+
+.more-list {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  padding: 17px;
+  background: #fff;
+  box-shadow: 0 0 1.6rem rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.more-list li {
+  margin-bottom: 16px;
+}
+.more-list li:last-child {
+  margin-bottom: 0;
+}
+
+.more-list li a {
+  white-space: nowrap;
+  font-size: 13px;
+  color: #333;
+}
+
+.footer-main {
+  padding-top: 30px;
+  padding-bottom: 55px;
+}
+.footer-main-left {
+  float: left;
+  width: 50%;
+  padding-right: 30px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-main-right {
+  float: right;
+  width: 50%;
+  padding-left: 30px;
+}
+
+.company-name {
+  float: left;
+  font-size: 15px;
+  font-weight: 700;
+  color: #111;
+  margin-right: 10px;
+}
+
+.company-info {
+  float: left;
+  width: 80%;
+}
+.company-info li {
+  font-size: 12px;
+  line-height: 17px;
+  color: #666;
+  margin-bottom: 15px;
+}
+.company-info li:last-child {
+  margin-bottom: 0px;
+}
+.company-info li span {
+}
+.company-info li span.f-line::after {
+  display: inline-block;
+  position: relative;
+  content: "";
+  width: 1px;
+  height: 10px;
+  background: #b2b2b2;
+  vertical-align: -1px;
+  margin: 0 3px;
+}
+
+.company-info li a {
+  color: #666;
+}
+.company-info li a.line {
+  color: #4a95ff;
+  text-decoration: underline;
+}
+.company-info li b {
+  color: #111;
+  font-weight: 700;
+}
+.company-info li p {
+  font-size: 11px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.4);
+}
+/* caniuse.com 을 통해 확인한다. */
+.copy {
+  font-size: 11px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-mobile {
+  display: none;
+}
+.footer-mobile .inner {
+  background: #fafafa;
+  padding: 30px 0;
+  text-align: center;
+}
+.footer-mobile-menu {
+}
+
+.footer-mobile-menu a,
+.footer-mobile-info a {
+  position: relative;
+  display: inline-block;
+  padding: 0 8px;
+  font-size: 11px;
+  color: #333;
+  margin-bottom: 6px;
+}
+.footer-mobile-menu a strong,
+.footer-mobile-info a strong {
+  font-weight: 700;
+}
+
+.a-line::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  background: #afafaf;
+}
+.a-more::after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  top: 2px;
+
+  width: 10px;
+  height: 10px;
+  background: url("../images/footer_arrow.svg") no-repeat center;
+}
+.footer-mobile-info .a-line::before {
+  right: -20px;
+}
+
+.footer-mobile-info a:first-child {
+  margin-right: 20px;
+}
+
+.footer-mobile-info {
+  margin: 25px 0;
+}
+.footer-mobile-desc {
+  position: relative;
+  display: block;
+  padding: 0 15%;
+
+  font-size: 10px;
+  line-height: 14px;
+  color: #b2b2b2;
+  /* 줄내림 할 때 단어는 잘라서 내리지 말아라. */
+  word-break: keep-all;
+  margin-bottom: 85px;
+}
